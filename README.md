@@ -4,7 +4,7 @@ A simple data science template for projects in Python. Uses UV, Taskfile, pre-co
 
 ## Using This Template
 
-1. **Create your project** — Click the green "Use this template" button on GitHub, or fork this repo
+1. **Create your project** — Click the green "Use this template" button on GitHub.com in the top right corner, or fork this repo
 2. **Clone** your new repository:
    ```bash
    git clone https://github.com/YOUR_USERNAME/your-project-name.git
