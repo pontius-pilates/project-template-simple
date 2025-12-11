@@ -1,6 +1,6 @@
 # project-template-simple
 
-A simple Python/data science project template with UV, Taskfile, pre-commit, ruff, black, mypy, and pytest.
+A simple data science template for projects in Python. Uses UV, Taskfile, pre-commit, ruff, black, mypy, and pytest.
 
 ## Using This Template
 
