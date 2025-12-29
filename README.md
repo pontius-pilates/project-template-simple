@@ -29,31 +29,36 @@ A simple data science template for projects in Python. Uses UV, Taskfile, pre-co
 
 ## Quick Start
 
-```bash
-# Install Task (if not already installed)
-# macOS
-brew install go-task
+1. **Install Task** — Install the task runner to execute project commands:
+   ```bash
+   # macOS
+   brew install go-task
+   
+   # Linux
+   sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b ~/.local/bin
+   
+   # Windows (with Chocolatey)
+   choco install go-task
+   ```
 
-# Linux
-sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b ~/.local/bin
+2. **Install UV** — Install the Python package manager:
+   ```bash
+   # Get installation instructions
+   task install:uv:help
+   
+   # Or install directly (for Linux/MacOS only)
+   task install:uv
+   ```
 
-# Windows (with Chocolatey)
-choco install go-task
-```
+3. **Setup the project** — Install dependencies and configure pre-commit hooks:
+   ```bash
+   task setup
+   ```
 
-```bash
-# Install UV (if not already installed)
-# For instructions:
-task install:uv:help
-```
-
-```bash
-# Full project setup (install dependencies + pre-commit hooks)
-task setup
-
-# Or just install dependencies
-task install
-```
+4. **Verify installation** — Run tests to confirm everything is working:
+   ```bash
+   task test
+   ```
 
 ## Available Tasks
 
